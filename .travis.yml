@@ -4,7 +4,7 @@ arch:
    - ppc64le
 language: node_js
 node_js:
-  - '5'
+  - '14'
 before_script:
   - 'npm install -g grunt-cli'
   - 'npm install -g bower'
