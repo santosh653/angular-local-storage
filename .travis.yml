@@ -1,9 +1,10 @@
+
 arch:
    - amd64
    - ppc64le
 language: node_js
 node_js:
-  - '0.10'
+  - '5'
 before_script:
   - 'npm install -g grunt-cli'
   - 'npm install -g bower'
